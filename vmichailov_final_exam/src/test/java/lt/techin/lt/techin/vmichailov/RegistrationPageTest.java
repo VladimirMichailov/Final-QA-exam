@@ -14,6 +14,7 @@ import java.util.List;
 
 public class RegistrationPageTest extends BaseTest{
 
+    // Positive tests
     @Test
     void registerUsingValidRandomDataAndGenerateCsv(){
         LoginPage loginPage  = new LoginPage(driver);
@@ -42,7 +43,6 @@ public class RegistrationPageTest extends BaseTest{
         validLoginData.add(new String[]{randomUserName, randomPassword});
         String filePath = Paths.get("C:", "Users", "Vartotojas", "Desktop", "QA praktikos egzaminas", "vmichailov_final_exam", "src", "test", "resources", "validLoginData.csv").toString();
         File csvFile = new File(filePath);
-       // C:\Users\Vartotojas\Desktop\QA praktikos egzaminas\vmichailov_final_exam\src\test
 
         registrationPage.writeValidDataToCSV(csvFile, validLoginData);
 
@@ -105,6 +105,8 @@ public class RegistrationPageTest extends BaseTest{
         Assertions.assertTrue(accountPage.getTextFromAccountArea().toLowerCase().contains(randomUserName.toLowerCase()), "dashboard message does not contain " + randomUserName);
 
     }
+
+    // Negative tests
 
     @Test
     public void registerUsingSameUserName(){

@@ -38,22 +38,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.CalculatorPageTest.divisionOfNumbers">
-    <configuration name="CalculatorPageTest.countSumOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="vmichailov_final_exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.techin.lt.techin.vmichailov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
-      <option name="METHOD_NAME" value="countSumOfNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalculatorPageTest.differenceOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
@@ -102,7 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationPageTest.registerWithEmptyUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorPageTest.sumOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vmichailov_final_exam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.techin.lt.techin.vmichailov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
+      <option name="METHOD_NAME" value="sumOfNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationPageTest.registerUsingValidRandomDataAndGenerateCsv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
       <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.RegistrationPageTest" />
-      <option name="METHOD_NAME" value="registerWithEmptyUserName" />
+      <option name="METHOD_NAME" value="registerUsingValidRandomDataAndGenerateCsv" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculatorPageTest.divisionOfNumbers" />
+        <item itemvalue="JUnit.RegistrationPageTest.registerUsingValidRandomDataAndGenerateCsv" />
         <item itemvalue="JUnit.CalculatorPageTest.multiplicationOfNumbers" />
         <item itemvalue="JUnit.CalculatorPageTest.differenceOfNumbers" />
-        <item itemvalue="JUnit.CalculatorPageTest.countSumOfNumbers" />
-        <item itemvalue="JUnit.RegistrationPageTest.registerWithEmptyUserName" />
+        <item itemvalue="JUnit.CalculatorPageTest.sumOfNumbers" />
       </list>
     </recent_temporary>
   </component>

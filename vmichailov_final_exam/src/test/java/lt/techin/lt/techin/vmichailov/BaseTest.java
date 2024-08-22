@@ -24,8 +24,8 @@ public class BaseTest {
         driver.get("http://localhost:8080/");
     }
 
-//    @AfterEach
-//    void teardown() {
-//        driver.quit();
-//    }
+    @AfterEach
+    void teardown() {
+        driver.quit();
+    }
 }

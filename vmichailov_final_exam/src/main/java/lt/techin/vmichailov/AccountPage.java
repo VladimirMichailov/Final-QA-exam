@@ -15,7 +15,7 @@ public class AccountPage extends  BasePage{
     }
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-    // Account info selectors
+    // Account info selector
     @FindBy(xpath = "//nav[@class='navbar navbar-default']//ul[@class='nav navbar-nav navbar-right']")
     WebElement accountArea;
 
@@ -32,7 +32,7 @@ public class AccountPage extends  BasePage{
     @FindBy(xpath = "//form[@id='number']/input[@value='skaičiuoti']")
     WebElement countButton;
 
-    // Input data tu Calculator
+    // Input data to Calculator
 
     public void inputFirstNumber(String num1){
         inputFirsNumber.clear();
@@ -50,12 +50,6 @@ public class AccountPage extends  BasePage{
     public void clickToCalculate(){
         countButton.click();
     }
-
-
-
-
-
-
 
 
 

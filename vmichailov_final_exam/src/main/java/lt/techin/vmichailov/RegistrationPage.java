@@ -37,7 +37,7 @@ public class RegistrationPage extends BasePage{
     @FindBy(xpath = "/html//span[@id='username.errors']")
     WebElement userNameErrorMessage;
 
-    // Password warning essage
+    // Password warning message
     @FindBy(xpath = "/html//span[@id='password.errors']")
     WebElement passwordErrorMessage;
 

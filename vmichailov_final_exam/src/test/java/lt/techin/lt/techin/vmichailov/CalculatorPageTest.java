@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class CalculatorPageTest extends BaseTest{
 
     @Test
-    public void countSumOfNumbers(){
+    public void sumOfNumbers(){
         LoginPage loginPage = new LoginPage(driver);
         AccountPage accountPage = new AccountPage(driver);
 
