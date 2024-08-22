@@ -37,8 +37,8 @@
     "last_opened_file_path": "C:/Users/Vartotojas/Desktop/QA praktikos egzaminas/vmichailov_final_exam"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegistrationPageTest.registerWithEmptyUserName">
-    <configuration name="LoginPageTest.loginUsingNotRegistredCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CalculatorPageTest.divisionOfNumbers">
+    <configuration name="CalculatorPageTest.countSumOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -47,14 +47,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
-      <option name="METHOD_NAME" value="loginUsingNotRegistredCredentials" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
+      <option name="METHOD_NAME" value="countSumOfNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.loginWithEmptyPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorPageTest.differenceOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -63,14 +63,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
-      <option name="METHOD_NAME" value="loginWithEmptyPassword" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
+      <option name="METHOD_NAME" value="differenceOfNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.loginWithEmptyUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorPageTest.divisionOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +79,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
-      <option name="METHOD_NAME" value="loginWithEmptyUserName" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
+      <option name="METHOD_NAME" value="divisionOfNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationPageTest.registerWithEmptyRepeatPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorPageTest.multiplicationOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +95,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.RegistrationPageTest" />
-      <option name="METHOD_NAME" value="registerWithEmptyRepeatPassword" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
+      <option name="METHOD_NAME" value="multiplicationOfNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorPageTest.divisionOfNumbers" />
+        <item itemvalue="JUnit.CalculatorPageTest.multiplicationOfNumbers" />
+        <item itemvalue="JUnit.CalculatorPageTest.differenceOfNumbers" />
+        <item itemvalue="JUnit.CalculatorPageTest.countSumOfNumbers" />
         <item itemvalue="JUnit.RegistrationPageTest.registerWithEmptyUserName" />
-        <item itemvalue="JUnit.RegistrationPageTest.registerWithEmptyRepeatPassword" />
-        <item itemvalue="JUnit.LoginPageTest.loginWithEmptyPassword" />
-        <item itemvalue="JUnit.LoginPageTest.loginWithEmptyUserName" />
-        <item itemvalue="JUnit.LoginPageTest.loginUsingNotRegistredCredentials" />
       </list>
     </recent_temporary>
   </component>
