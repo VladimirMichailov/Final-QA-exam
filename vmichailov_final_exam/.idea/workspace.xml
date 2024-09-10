@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfe31c0a-5eec-4c34-af82-48709c2a44de" name="Changes" comment="" />
+    <list default="true" id="cfe31c0a-5eec-4c34-af82-48709c2a44de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lt/techin/lt/techin/vmichailov/RegistrationPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lt/techin/lt/techin/vmichailov/RegistrationPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/validLoginData.csv" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +35,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.LoginPageTest.executor": "Run",
+    "JUnit.LoginPageTest.loginUsingNotRegistredCredentials.executor": "Run",
+    "JUnit.LoginPageTest.loginUsingValidData.executor": "Run",
+    "JUnit.LoginPageTest.loginWithEmptyPassword.executor": "Run",
+    "JUnit.LoginPageTest.loginWithEmptyUserName.executor": "Run",
+    "JUnit.RegistrationPageTest.executor": "Run",
+    "JUnit.RegistrationPageTest.registerUsingValidRandomDataAndGenerateCsv.executor": "Run",
+    "JUnit.RegistrationPageTest.registerValidRandomDataAndThenLogin.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -37,8 +50,8 @@
     "last_opened_file_path": "C:/Users/Vartotojas/Desktop/QA praktikos egzaminas/vmichailov_final_exam"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculatorPageTest.divisionOfNumbers">
-    <configuration name="CalculatorPageTest.differenceOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginPageTest.loginWithEmptyPassword">
+    <configuration name="LoginPageTest.loginUsingNotRegistredCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -47,14 +60,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
-      <option name="METHOD_NAME" value="differenceOfNumbers" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginUsingNotRegistredCredentials" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorPageTest.divisionOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.loginUsingValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -63,14 +76,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
-      <option name="METHOD_NAME" value="divisionOfNumbers" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginUsingValidData(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorPageTest.multiplicationOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.loginWithEmptyPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
-      <option name="METHOD_NAME" value="multiplicationOfNumbers" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginWithEmptyPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorPageTest.sumOfNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.loginWithEmptyUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vmichailov_final_exam" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +108,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lt.techin.lt.techin.vmichailov" />
-      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.CalculatorPageTest" />
-      <option name="METHOD_NAME" value="sumOfNumbers" />
+      <option name="MAIN_CLASS_NAME" value="lt.techin.lt.techin.vmichailov.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginWithEmptyUserName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorPageTest.divisionOfNumbers" />
+        <item itemvalue="JUnit.LoginPageTest.loginWithEmptyPassword" />
+        <item itemvalue="JUnit.LoginPageTest.loginWithEmptyUserName" />
+        <item itemvalue="JUnit.LoginPageTest.loginUsingNotRegistredCredentials" />
+        <item itemvalue="JUnit.LoginPageTest.loginUsingValidData" />
         <item itemvalue="JUnit.RegistrationPageTest.registerUsingValidRandomDataAndGenerateCsv" />
-        <item itemvalue="JUnit.CalculatorPageTest.multiplicationOfNumbers" />
-        <item itemvalue="JUnit.CalculatorPageTest.differenceOfNumbers" />
-        <item itemvalue="JUnit.CalculatorPageTest.sumOfNumbers" />
       </list>
     </recent_temporary>
   </component>

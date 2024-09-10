@@ -41,7 +41,7 @@ public class RegistrationPageTest extends BaseTest{
         // Safe login data to csv file
         List<String[]> validLoginData = new ArrayList<>();
         validLoginData.add(new String[]{randomUserName, randomPassword});
-        String filePath = Paths.get("C:", "Users", "Vartotojas", "Desktop", "QA praktikos egzaminas", "vmichailov_final_exam", "src", "test", "resources", "validLoginData.csv").toString();
+        String filePath = Paths.get("C:", "Users", "Vladimir", "Desktop", "Final-QA-exam","vmichailov_final_exam", "src", "test", "resources", "validLoginData.csv").toString();
         File csvFile = new File(filePath);
 
         registrationPage.writeValidDataToCSV(csvFile, validLoginData);
